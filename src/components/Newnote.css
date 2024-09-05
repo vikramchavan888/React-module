@@ -1,0 +1,134 @@
+
+.Form-wrapper{
+  position: fixed;z-index: 299;
+   left: 0;right: 0;bottom: 0;top: 0;background-color: #2F2F2FBF;
+   ;
+  }
+  
+  .create-note{
+  position: fixed;z-index: 300;
+  justify-content:center;
+  left:26%;
+  top: 26%;
+  display: flex;
+  border-radius: 10px;
+  width: 650px;
+  height: 270px;
+  background-color:#FFFFFF;
+  font-family: Arial, sans-serif;
+  flex-direction: column;
+
+  
+  }
+
+  
+  .Create-New-group{
+    font-size: 2rem;
+    font-weight: 600;
+    padding-left: 4rem;
+    padding-top: 2rem;
+  }
+  
+  .New-group-lebel{
+    width: 50%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-top: 1.5rem;
+    padding-left: 59px;
+  }
+  .New-group{
+ margin-top: -2rem;
+    width: 374px;
+    height: 37px;
+    border-radius: 20px;
+    margin-left: 15rem;
+    padding-left: 29px;
+    border: 1px solid #CCCCCC;
+
+  
+  }
+  
+  
+  .profilecolour{
+    padding-top: 3px;width: 350px;
+    height: 37px; margin-top: -2rem;
+    margin-left: 15rem;
+    font-size: 23px; display: flex; flex-direction: row;
+  }
+
+  .Choose-colour{
+    width: 50%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-top: 1.5rem;
+    padding-left: 59px;
+  }
+  
+  .fourth-div{
+    height: 20%;
+  }
+  .button{margin-left: 29rem;margin-top: 1.5rem;
+    width: 145px;
+    height: 38px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #001F8B;
+    color: rgb(255, 255, 255)
+    ;
+  }
+    .purple{ width: 40px;height: 40px;border-radius:50px; color: #B38BFA; background: #B38BFA;  cursor: pointer; border:none; margin-left: 13px;}
+  
+    .pink{ width: 40px;height: 40px; color: #FF79F2; background: #FF79F2;border-radius:50px; cursor: pointer; border:none; margin-left: 10px}
+  
+    .cyan{ color: #43E6FC; width: 40px;height: 40px;background: #43E6FC;border-radius:50px;  cursor: pointer; border:none; margin-left: 10px }
+  
+    .orange{ color: #F19576; width: 40px;height: 40px;background: #F19576;border-radius:50px; cursor: pointer; border:none; margin-left: 10px}
+  
+    .blue{ color: #0047FF; width: 40px;height: 40px;background:#0047FF;border-radius:50px; cursor: pointer; border:none; margin-left: 10px}
+  
+    .light-blue{ color: #6691FF; width: 40px;height: 40px;background:#6691FF;border-radius:50px; cursor: pointer; border:none; margin-left: 10px }
+
+    @media only screen and (max-width: 900px) {
+    .create-note {
+      
+      left: 13%;
+      top: 36%;
+      width: 658px;
+      height: 447px;
+  }
+  .Create-New-group {  padding-left: 35px;
+    font-size: 3rem;}
+
+    .New-group-lebel{  padding-left: 35px;
+      font-size: 2rem;
+    }
+    .New-group {   font-size: 27px;
+      width: 323px;
+      height: 41px;
+      margin-left: 16rem;
+      padding-left: 29px;
+  }
+
+  .Choose-colour {
+    font-size: 2rem;
+    padding-left: 35px;}
+
+    .profilecolour {
+
+ 
+      margin-top: -2rem;
+      margin-left: 17rem;
+  }
+
+  .button {
+    margin-left: 10rem;
+    margin-top: 2.5rem;
+    width: 308px;
+    height: 61px;
+    border-radius: 12px;
+    font-size: 36px;
+ 
+  }
+}

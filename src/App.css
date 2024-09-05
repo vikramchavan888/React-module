@@ -1,0 +1,95 @@
+
+.Add-note{
+  border: 0;
+  width: 80px; border-radius: 80px; height: 80px;
+  background: #16008B; text-align: center; 
+   color: #ffffff;   padding-top: 6px;
+   font-size: 60px;
+   position:fixed;
+   bottom:5%;
+   left:21%;
+ }
+
+
+.paragraph{line-height: 1.5rem; margin-left: 14rem;font-size: 1rem;color: #292929;font-weight: 550;}
+
+.Pocket-Notes{ margin-bottom: 1rem; font-size: 2rem; margin-left: 22rem;font-weight: 600;}
+
+.bg-image{
+  height: 15rem;margin-top: 7rem;
+  margin-left: 14rem;
+  width:30rem ;
+}
+.note-list{
+  height: 80%;position:fixed;width: 30%;
+  overflow: hidden;
+  overflow-y: scroll;
+  left: 0;
+  bottom: 0;
+
+
+}
+.Heading{
+   padding-top: 3rem;padding-left: 4rem;
+   text-align: center;
+   width: auto;
+   position:fixed;
+   left: 0;
+   top: 0;
+   height: 20%;
+   font-size: 30px;
+   font-weight: 600;
+   background-color: #ffffff;
+    
+}
+.note-content-container-parent{
+  background-color: 
+  #DAE5F5;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 70%;
+  height: 100%;
+  display: flex;position: fixed;
+  flex-direction: column;
+}
+
+::-webkit-scrollbar{width: 10px; background: #13062962;
+}
+::-webkit-scrollbar-thumb{background-color: #dfd8ebb4;border-radius: 5px; }
+
+
+
+@media only screen and (max-width: 900px) {
+
+  .note-content-container-parent{display: none}  
+
+  .note-list{
+    height: 80%;position:fixed;width: 100%;
+    overflow: hidden;background-color: #ffffff;
+    overflow-y: scroll;}
+
+  .Heading{
+    padding-top: 8rem;
+    padding-left: 11rem;
+    text-align: center;
+    width: auto;
+    position: fixed;
+    top: 0;
+    height: 20%;
+    font-size: 5rem;
+    font-weight: 600;
+    background-color: #ffffff;
+}
+
+.Add-note{
+  height: 11.5rem;
+  width: 11.5rem;
+  border-radius: 11.5rem;
+  padding-top: 6px;
+  font-size: 110px;
+  position: fixed;
+  bottom: 5%;
+  left: 69%;
+ }
+}

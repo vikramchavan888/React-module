@@ -1,0 +1,157 @@
+.profile-container{
+    height: 15%;top: 0;
+    width: 75%;
+    background:#16008B;
+    position: fixed;
+}
+.profile-pic{ font-size: 2.5rem;color: #ffffff;padding-top: .5rem;text-align: center;
+    margin-left: 1rem;
+    position: fixed;
+    border-radius: 4rem;
+    background-color:#ffffff;
+    height:4rem;
+    width: 4rem;text-align:center;
+    margin: .6rem;}
+
+.note-content-container{
+    background-color: 
+    #DAE5F5;
+    top: 0;
+    right: 0;
+    bottom: 0;z-index: 200;
+    width: 70%;
+    height: 100%;
+    display: flex;position: fixed;
+    flex-direction: column;
+}
+
+.profile-content{margin-left: 6.5rem;color: #ffffff; font-size: 2rem;    margin-top: 1.5rem;}
+
+
+.input-background{
+    height: 30%;bottom: 0;
+    width: 75%;
+    background:#16008B;
+    position: fixed;
+}
+.points{margin-top: 10%;
+    height: 58%;
+    overflow-y: scroll;
+}
+.point{
+    font-size: .8rem;
+    line-height: 1.4rem;
+    border: 1px;
+    box-shadow: 0px 4px 20px 0px #00000040;
+    margin-top: 2%;
+    margin-left: 4%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    height: auto;
+    width: 94%;padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;font-weight: 600;  
+}
+
+.home{
+    height: 20px;width: 20px;display: none;background:none;cursor: pointer;
+    rotate:calc(180deg);
+}
+
+.text-container{
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+border:none;
+margin-top: 1%;
+margin-left: 2%;
+height: 90%;
+border-radius: 1rem;
+width: 90%;
+}
+
+.note-buttton{background-color:#ffffff;
+    bottom: 5%;
+    right: 5%;
+    position: fixed;border: none; cursor: pointer ;
+}
+
+.date{margin-left: 84%;
+    margin-bottom: 2%;
+    height: 5px;font-size:12px;font-weight: 500;
+    width:auto;
+    border-color: #16008B;
+}  
+
+@media only screen and (max-width: 900px) {
+    .note-content-container{
+        width: 100%;right: 0;
+    }
+    .input-background {
+        height: 20%;
+        bottom: 0;
+        width: 100%;     
+}
+
+.profile-container {top: 0; height: 10%;width: 100%;position: fixed;}
+
+.profile-pic{
+    height: 8.5rem;width: 8.5rem;font-size: 5.5rem;padding-top: 1.7rem;
+    margin-left: 7rem;border-radius: 8.5rem;text-align:center;margin-top: 1rem;}
+
+.home{display: block; height: 2rem;width: 2rem; font-size: 5rem;color: #ffffff;margin-top: 7rem;margin-left: 4rem;}
+
+.profile-container{display: flex;flex-direction: row; }
+.profile-content {
+    margin-left: 11.5rem;
+    color: #ffffff;
+    font-size: 3.8rem;
+    margin-top: 2.5rem;}
+
+    .input-background{height: 15%;}
+
+        .text-container {
+            padding-bottom: 1rem;
+            padding-top: 2rem;
+            padding-right: 1rem;
+            padding-left: 1rem;
+            font-size: 3rem;
+            margin-top: 3%;
+            margin-left: 5%;
+            height: 80%;
+            width: 90%;
+        }
+
+        .points {
+            margin-top: 22%;height: 75%;
+        }
+        .point {
+            text-align:start;
+            font-size: 2.5rem;
+            line-height: 4.4rem;
+            margin-top: 2%;
+            margin-left: 4%;
+            padding-bottom: 4rem;
+            padding-top: 4rem;
+            padding-right: 1rem;
+            padding-left: 1rem;
+            font-weight: 500;
+    }
+
+    .date {
+        margin-left: 51%;
+        margin-bottom: 2%;
+        height: 5px;
+        font-size: 35px;
+        font-weight: 500;margin-top: 7%;
+    }
+    .note-buttton {
+        bottom: 5%;
+        right: 9%;
+        position: fixed;
+        
+    }
+
+}
